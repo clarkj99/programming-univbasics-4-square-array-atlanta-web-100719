@@ -3,6 +3,6 @@ def square_array(array)
   new_array=[]
   while counter < array.length
     new_array.push(array[counter]**2)
-    counter++
+    counter += 1
   end
 end
